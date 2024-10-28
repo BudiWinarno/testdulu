@@ -1,5 +1,5 @@
 .navbar-nav a.active {
-  border-bottom: 3px solid blue;
+  border-bottom: 3px solid #005EB8;
 }
 
 .navbar-nav a {
@@ -56,12 +56,17 @@
   .content-tiga a img {
     margin-top: 15px;
     width: 50%;
-    height: auto;
+    height: 50px;
   }
 
   .content-dua br {
     display: none;
   }
+
+  .content-dua p {
+    font-size: 14px;
+  }
+
 
   .tentang-kami-content-satu p {
     text-align: justify;
