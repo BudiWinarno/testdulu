@@ -27,8 +27,8 @@
   color: black;
 }
 
-.index-content-dua a:hover{
-    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.2);
+.index-content-dua a:hover {
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.2);
 }
 
 /* Mobile Screen */
@@ -59,8 +59,7 @@
     height: auto;
   }
 
-
-  .content-dua br{
+  .content-dua br {
     display: none;
   }
 
@@ -83,30 +82,34 @@
     margin-top: 40px;
   }
 
-  .tentang-kami-content-dua h1{
+  .tentang-kami-content-dua h1 {
     font-size: 22px;
     font-weight: bold;
   }
 
-  .tentang-kami-content-tiga h1{
+  .tentang-kami-content-tiga h1 {
     font-size: 22px;
     font-weight: bold;
   }
 
-  .tentang-kami-content-tiga h4{
+  .tentang-kami-content-tiga h4 {
     font-size: 16px;
     font-weight: bold;
   }
 
-  .content-satu h1{
+  .content-satu h1 {
     font-size: 24px;
   }
 
-
-  .d-flex{
-    margin-top: -20px;
+  .banner-produk-baru img {
+    margin-top: 70px;
+    width: 80%;
+    height: 80%;
   }
 
+  .d-flex {
+    margin-top: -20px;
+  }
 }
 
 /* Desktop Screen */
@@ -118,10 +121,24 @@
 }
 
 /* Tablet Screen */
+@media only screen and (max-width: 800px) {
+  .banner-produk-baru img {
+    margin-top: 100px;
+    width: 80%;
+    height: 80%;
+  }
+}
+
+/* Tablet Screen 
 @media only screen and (max-width: 768px) {
   .media-footer {
     position: fixed;
     bottom: 0;
     width: 100%;
   }
+
+  *{
+    background-color: aqua;
+  }
 }
+  */
