@@ -123,6 +123,22 @@
     width: 50%;
     height: 50%;
   }
+
+  /*
+  * {
+    background-color: aqua;
+  }
+    */
+
+  .tentangkamudesc p {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .berikutadalah p{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
 }
 
 /* Tablet Screen */
