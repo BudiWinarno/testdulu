@@ -116,6 +116,15 @@
     height: 80%;
   }
 
+  .content-household img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-household {
+    margin-top: 20px;
+  }
+
   .d-flex {
     margin-top: -20px;
   }
