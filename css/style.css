@@ -259,6 +259,12 @@
     width: 100%;
   }
 
+  #footercopyrightarticle1{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
 }
 
 @media only screen and (min-width: 800px) {
