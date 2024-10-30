@@ -68,6 +68,14 @@
     display: none;
   }
 
+  .brand-content-satu h4 {
+    font-size: 12px;
+  }
+
+  .brand-content-satu p {
+    display: none;
+  }
+
   .content-dua p {
     font-size: 14px;
   }
