@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yuri-dee</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="images/logo-8.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  </head>
+
+  <style> 
+    @font-face {
+       font-family: myFirstFont;
+       src: url(SF-Pro-Display-Regular/SF-Pro-Text-Bold.otf);
+    }
+    
+    h1 {
+       font-family: myFirstFont;
+    }
+
+    .card-footer p{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .accordion-button::after {
+    background-image: url("images/buttonplus.png");
+    transform: scale(0.75) !important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("images/buttonminus.png");
+}
+
+    </style>
+
+  <body>
+
+    <div class="container-fluid pb-2">
+      <div class="container">
+      <!-- Sosmed -->
+      <div class="sosmed mb-2">
+        <ul>
+          <li><a href="kontak.html"><img src="images/kontak-small.png" alt="Kontak" ></a></a></li>
+          <li><a href="https://www.youtube.com/@YuriDee2" target="_blank"><img src="images/youtube-small.png" alt="Youtube" ></a></a></li>
+          <li><a href="https://www.instagram.com/yurihousehold/" target="_blank"><img src="images/instagram-small.png" alt="Instagram" ></a></a></li>
+          <li><a href="https://web.facebook.com/p/Yuri-Household-61556415279542/?_rdc=1&_rdr" target="_blank"><img src="images/fb-small.png" alt="Fb" ></a></a></li>
+          <li><a href="https://www.tiktok.com/@yurihousehold" target="_blank"><img src="images/tiktok-small.png" alt="Tiktok" ></a></li>
+        </ul>
+      </div>
+      <!-- End Sosmed -->
+  
+        <!-- Navbar Menu -->
+        <div class="menubar">
+          <nav class="navbar navbar-expand-lg bg-body-white">
+            <div class="container-fluid">
+              <img src="images/logo-8.png" width="100px" height="50px" />
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link fw-bold"
+                      aria-current="page"
+                      href="index.html"
+                      style="color: #005EB8"
+                      >HOME</a
+                    >
+                  </li>
+  
+                  <li class="nav-item">
+                    <a
+                      class="nav-link fw-bold"
+                      aria-current="page"
+                      href="tentang-kami.html"
+                      style="color: #005EB8"
+                      >TENTANG KAMI</a
+                    >
+                  </li>
+  
+                  <li class="nav-item">
+                    <a
+                      class="nav-link fw-bold"
+                      aria-current="page"
+                      href="brand.html"
+                      style="color: #005EB8"
+                      >BRANDS</a
+                    >
+                  </li>
+  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #005EB8">
+                      ONLINE SHOP
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://shopee.co.id/yuriofficialshop" target="_blank">SHOPEE</a></li>
+                      <li><a class="dropdown-item" href="https://www.tokopedia.com/yuri-official" target="_blank">TOKOPEDIA</a></li>
+                      <li><a class="dropdown-item" href="https://www.lazada.co.id/shop/yuri-official-store/?spm=a2o4j.pdp_revamp.seller.1.28fa76118mbGvu&itemId=1769620279&channelSource=pdp" target="_blank">LAZADA</a></li>
+                      <li><a class="dropdown-item" href="https://www.blibli.com/brand/yuri-official-store" target="_blank">BLIBLI</a></li>
+                      <li><a class="dropdown-item" href="https://www.yurishop.co/id/" target="_blank">YURI SHOP</a></li>
+                    </ul>
+                  </li>
+  
+                  <li class="nav-item">
+                    <a
+                      class="nav-link fw-bold"
+                      aria-current="page"
+                      href="media.html"
+                      style="color: #005EB8"
+                      >MEDIA</a
+                    >
+                  </li>
+  
+                  <li class="nav-item">
+                    <a
+                      class="nav-link fw-bold"
+                      aria-current="page"
+                      href="produk-baru.html"
+                      style="color: #005EB8"
+                      >PRODUK BARU</a
+                    >
+                  </li>
+  
+                  <li class="nav-item">
+                    <a
+                      class="nav-link fw-bold"
+                      aria-current="page"
+                      href="kontak.html"
+                      style="color: #005EB8"
+                      >KONTAK</a
+                    >
+                  </li>
+  
+                  <li class="nav-item">
+                    <a
+                      class="nav-link fw-bold"
+                      aria-current="page"
+                      href="distributor.html"
+                      style="color: #005EB8"
+                      >DISTRIBUTOR</a
+                    >
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!--End Navbar Menu-->
+      </div>
+    </div>
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Content1 -->
+       <div class="content-satu text-center" style="margin-top: 20px" data-aos="fade-up">
+        <div class="caption1">
+          <h1 style="margin-bottom: 20px; color: #005EB8">
+            Pertanyaan Umum
+          </h1>
+          <h5 style="margin-bottom: 20px; color: #005EB8">Pertanyaan yang sering dicari</h5>
+        </div>
+
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" style="color: #748087">
+                    Apa itu biodegradable formulation?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body" style="text-align: justify;">
+                    <p>Biodegradable Formulation adalah formula atau bahan yang dapat di uraikan secara alami oleh organisme hidup seperti bakteri atau fungi.
+                        Dengan perkataan lain produk tersebut di rancang untuk mengurai dengan lebih mudah dan lebih cepat setelah digunakan di bandingkan
+                        dengan bahan-bahan sintentis yang sulit terurai. Dengan demikian akan mengurangi dampak lingkungan jangka panjang dari limbah yang
+                        tidak terurai.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" style="color: #748087">
+                    Apa kelebihan produk yang menggunakan bahan yang
+                    bersifat biodegradable?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body" style="text-align: justify;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, cum possimus maxime perferendis aut at rem deleniti dolores suscipit unde error nemo, deserunt officiis nostrum totam in ab nihil ipsam.
+                    Suscipit numquam, doloremque rem culpa alias repellat soluta tempore saepe in minus mollitia eligendi autem. Explicabo eveniet ipsum veritatis? Adipisci nam labore ea corporis doloremque, non nostrum illum laborum libero!
+                    Rerum tempora nobis animi? Quos rerum deleniti velit soluta unde iure quo, tenetur placeat cumque, tempore saepe aliquam voluptatibus repellat sit totam accusantium possimus libero, aliquid praesentium explicabo ipsam. Harum?</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: #748087">
+                    Apakah produk Yuri menggunakan bahan-bahan
+                    biodegradable?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body" style="text-align: justify;">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore porro nihil ipsa modi alias, quis cupiditate exercitationem necessitatibus vitae totam ipsum vel ullam deleniti eveniet velit, ratione inventore incidunt facere.
+                    Numquam minus, ipsa corporis nesciunt atque mollitia repellendus fugiat eum tempora minima, eos perspiciatis a sint omnis unde laborum beatae, fuga soluta debitis sed quia. Soluta error hic ad odit!
+                    Quam quae voluptates veritatis atque dignissimos nisi ex optio voluptatem! Et, inventore. Reprehenderit quod, impedit odio doloremque eius explicabo adipisci amet inventore voluptatem assumenda quae distinctio necessitatibus perferendis sequi ipsa?</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour" style="color: #748087">
+                    Apakah kemasan produk Yuri dapat didaur ulang?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body" style="text-align: justify;">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ullam accusamus deleniti numquam? At alias quisquam vel quos amet hic, explicabo quo perferendis corporis dolorem facilis assumenda delectus iste? Aspernatur.
+                    Harum porro corrupti dignissimos sed pariatur. Eligendi eveniet at aperiam nihil natus consequuntur distinctio repudiandae, expedita reiciendis laudantium. Amet minus dolores dolorem. Doloribus cupiditate labore error neque blanditiis, distinctio totam.
+                    Dolorem voluptates, ipsum tempora velit corporis recusandae reiciendis possimus qui temporibus alias, exercitationem impedit tempore, ut labore soluta! Commodi assumenda labore molestiae quibusdam excepturi. Perferendis, necessitatibus. Accusamus voluptate nam sunt!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive" style="color: #748087">
+                    Produk Yuri bisa didapatkan dimana saja?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body" style="text-align: justify;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente labore exercitationem, vero magni assumenda commodi similique consequatur itaque eius cumque eaque distinctio facilis placeat quae modi nihil. Vero, voluptas debitis.
+                    Itaque blanditiis, vitae cupiditate dicta animi corporis quas assumenda modi officia amet rerum deserunt dolore repellat aspernatur aliquam commodi explicabo nihil ducimus officiis accusantium inventore! Aperiam deleniti hic est repudiandae!
+                    Praesentium sint, quibusdam obcaecati, maiores, doloribus explicabo animi debitis laudantium in quasi ratione? Optio voluptates atque adipisci. Iste fuga at aut ex magnam totam omnis, ullam assumenda qui laboriosam voluptatem.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix" style="color: #748087">
+                    Apakah produk Yuri bisa menimbulkan alergi?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                  <div class="accordion-body" style="text-align: justify;">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus labore harum quia architecto maxime dolorem et incidunt quam sint omnis sapiente asperiores ab nostrum non ratione, soluta voluptates provident accusamus!
+                    Vel ipsa autem maxime, voluptatibus incidunt in facilis saepe nam debitis adipisci error aperiam blanditiis cum tenetur, impedit numquam quaerat eos iusto ipsum accusamus. Quos, numquam. Fugit nam in minus!
+                    Sint dolorum quasi hic sequi atque, consequuntur ipsam placeat, maiores iste iusto alias debitis sapiente a. Sit, harum quaerat, sed maiores fugit explicabo ex atque error, assumenda at aut enim.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="button-brand mt-3">
+            <a
+            href="brand.html"
+            ><img src="images/buttonselengkapnya.png" class="img-fluid" alt="Responsive image"></a
+          >
+           </div>
+        
+       </div>
+      <!-- End Content1-->
+
+    </div>
+    <!-- End Container -->
+
+    <!-- Start Footer -->
+    <div id="faq-footer"
+      class="card-footer text-body-secondary bg-dark text-center"
+      style="margin-top: 30px; height: 40px; padding-top: 5px;"
+    >
+    <div style="margin-top: 5px;">
+      <p style="font-size: 12px; color: white">Copyright © 2024 PT Joenoes Ikamulya.</p>
+    </div>
+
+    </div>
+    <!-- End Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
+  </body>
+</html>

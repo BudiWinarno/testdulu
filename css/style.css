@@ -133,37 +133,37 @@
     margin-top: 20px;
   }
 
-  .content-childrentoilet a img{
+  .content-childrentoilet a img {
     width: 50%;
     height: auto;
     margin-top: 30px;
   }
 
-  #footer-childrentoilet{
+  #footer-childrentoilet {
     position: fixed;
     bottom: 0;
     width: 100%;
   }
 
-  .content-babytoilet a img{
+  .content-babytoilet a img {
     width: 50%;
     height: auto;
     margin-top: 30px;
   }
 
-  #footer-babytoilet{
+  #footer-babytoilet {
     position: fixed;
     bottom: 0;
     width: 100%;
   }
 
-  .content-adulttoilet a img{
+  .content-adulttoilet a img {
     width: 50%;
     height: auto;
     margin-top: 30px;
   }
 
-  #footer-adulttoilet{
+  #footer-adulttoilet {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -208,7 +208,7 @@
     width: 50%;
     height: 50%;
   }
-  
+
   .artikel-content-satu {
     margin-left: 250px;
     margin-right: 250px;
@@ -223,48 +223,47 @@
     height: 80%;
   }
 
-  .content-childrentoilet a img{
+  .content-childrentoilet a img {
     width: 50%;
     height: auto;
     margin-top: 30px;
   }
 
-  #footer-childrentoilet{
+  #footer-childrentoilet {
     position: fixed;
     bottom: 0;
     width: 100%;
   }
 
-  .content-babytoilet a img{
+  .content-babytoilet a img {
     width: 50%;
     height: auto;
     margin-top: 30px;
   }
 
-  #footer-babytoilet{
+  #footer-babytoilet {
     position: fixed;
     bottom: 0;
     width: 100%;
   }
 
-  .content-adulttoilet a img{
+  .content-adulttoilet a img {
     width: 50%;
     height: auto;
     margin-top: 30px;
   }
 
-  #footer-adulttoilet{
+  #footer-adulttoilet {
     position: fixed;
     bottom: 0;
     width: 100%;
   }
 
-  #footercopyrightarticle1{
+  #footercopyrightarticle1 {
     position: fixed;
     bottom: 0;
     width: 100%;
   }
-  
 }
 
 @media only screen and (min-width: 800px) {
@@ -279,7 +278,14 @@
     width: 50%;
     height: 50%;
   }
+}
 
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  #faq-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 }
 
 /* Tablet Screen 
