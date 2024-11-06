@@ -43,6 +43,27 @@
   filter: drop-shadow(1px 1px 5px #005eb8);
 }
 
+#brandsid .imagebrand1{
+}
+
+#brandsid .imagebrand2{
+}
+
+#brandsid .imagebrand3{
+}
+
+.imagebrand1:hover{
+  filter: drop-shadow(1px 1px 6px gray);
+}
+
+.imagebrand2:hover{
+  filter: drop-shadow(1px 1px 6px gray);
+}
+
+.imagebrand3:hover{
+  filter: drop-shadow(1px 1px 6px gray);
+}
+
 .button-brand {
   position: relative;
   text-align: center;
