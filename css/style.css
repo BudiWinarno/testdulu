@@ -213,6 +213,12 @@
     margin-left: 250px;
     margin-right: 250px;
   }
+
+  #produkbarufooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 }
 
 /* Tablet Screen */
