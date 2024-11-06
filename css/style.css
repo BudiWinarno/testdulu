@@ -39,7 +39,17 @@
   filter: drop-shadow(1px 1px 5px #005eb8);
 }
 
+.button-media:hover img{
+  filter: drop-shadow(1px 1px 5px #005eb8);
+}
+
 .button-brand {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.button-media {
   position: relative;
   text-align: center;
   color: white;
@@ -193,10 +203,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-weight: bold;
+    font-family: myFirstFont;
+    font-size: 16px;
+  }
+
+  .centered-media {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
     font-family: myFirstFont;
     font-size: 14px;
+    margin-top: 5px;
   }
+
 }
 
 /* Desktop Screen */
@@ -251,9 +272,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-weight: bold;
     font-family: myFirstFont;
     font-size: 28px;
+  }
+
+  .centered-media {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: myFirstFont;
+    font-size: 24px;
   }
 }
 
@@ -337,7 +367,17 @@
     color: white;
     font-weight: bold;
     font-family: myFirstFont;
-    font-size: 16px;
+    font-size: 18px;
+  }
+
+  .centered-media {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: myFirstFont;
+    font-size: 14px;
   }
 }
 
