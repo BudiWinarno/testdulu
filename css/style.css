@@ -31,8 +31,16 @@
   box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.2);
 }
 
-#brandsid:hover .imagebrand1 {
-  margin-bottom: 10px;
+#brandsid .imagebrand1:hover {
+  filter: drop-shadow(1px 1px 8px #005eb8);
+}
+
+#brandsid .imagebrand2:hover {
+  filter: drop-shadow(1px 1px 8px #005eb8);
+}
+
+#brandsid .imagebrand3:hover {
+  filter: drop-shadow(1px 1px 8px #005eb8);
 }
 
 .button-brand:hover img {
@@ -44,16 +52,22 @@
 }
 
 #brandsid .imagebrand1{
+  filter: drop-shadow(1px 1px 6px gray);
+
 }
 
 #brandsid .imagebrand2{
+  filter: drop-shadow(1px 1px 6px gray);
+
 }
 
 #brandsid .imagebrand3{
+  filter: drop-shadow(1px 1px 6px gray);
+
 }
 
 .imagebrand1:hover{
-  filter: drop-shadow(1px 1px 6px gray);
+  filter: drop-shadow(1px 1px 10px gray);
 }
 
 .imagebrand2:hover{
@@ -239,6 +253,18 @@
     margin-top: 5px;
   }
 
+  #brandsid .imagebrand1 {
+    margin-top: 10px;
+  }
+
+  #brandsid .imagebrand2 {
+    margin-left: 10px;
+  }
+
+  #brandsid .imagebrand3 {
+    margin-left: 5px;
+  }
+
 }
 
 /* Desktop Screen */
@@ -306,6 +332,19 @@
     font-family: myFirstFont;
     font-size: 24px;
   }
+
+  #brandsid .imagebrand1 {
+    margin-top: 10px;
+  }
+
+  #brandsid .imagebrand2 {
+    margin-left: 25px;
+  }
+
+  #brandsid .imagebrand3 {
+    margin-left: 20px;
+  }
+
 }
 
 /* Tablet Screen */
@@ -400,18 +439,17 @@
     font-family: myFirstFont;
     font-size: 14px;
   }
-}
 
-/* Tablet Screen 
-@media only screen and (max-width: 768px) {
-  .media-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  #brandsid .imagebrand2 {
+    margin-left: 25px;
   }
 
-  *{
-    background-color: aqua;
+  #brandsid .imagebrand3 {
+    margin-left: 20px;
+  }
+
+  #brandsid .imagebrand1 {
+    margin-top: 10px;
   }
 }
-  */
+
