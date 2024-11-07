@@ -147,6 +147,27 @@
   width: 70%;
 }
 
+.handsoap-produk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.ligent-produk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.lysorin-produk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 
 /* Mobile Screen */
 @media only screen and (max-width: 600px) {
@@ -476,6 +497,30 @@
   }
 
   .handgel-produk .card {
+    height: 420px;
+  }
+
+  .handsoap-produk h5,img {
+    margin-top: 40px;
+  }
+
+  .handsoap-produk .card {
+    height: 420px;
+  }
+
+  .ligent-produk h5,img {
+    margin-top: 40px;
+  }
+
+  .ligent-produk .card {
+    height: 420px;
+  }
+
+  .lysorin-produk h5,img {
+    margin-top: 40px;
+  }
+
+  .lysorin-produk .card {
     height: 420px;
   }
 
