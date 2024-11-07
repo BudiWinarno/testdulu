@@ -126,6 +126,28 @@
   width: 70%;
 }
 
+.fabriccare-produk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.glasscleaner-produk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.handgel-produk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
 /* Mobile Screen */
 @media only screen and (max-width: 600px) {
   .content-satu img {
@@ -431,6 +453,30 @@
 
   .yuribleach-produk h5 {
     margin-top: 60px;
+  }
+
+  .fabriccare-produk h5,img {
+    margin-top: 40px;
+  }
+
+  .fabriccare-produk .card {
+    height: 420px;
+  }
+
+  .glasscleaner-produk h5,img {
+    margin-top: 40px;
+  }
+
+  .glasscleaner-produk .card {
+    height: 420px;
+  }
+
+  .handgel-produk h5,img {
+    margin-top: 40px;
+  }
+
+  .handgel-produk .card {
+    height: 420px;
   }
 
 }
