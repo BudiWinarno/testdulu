@@ -47,34 +47,31 @@
   filter: drop-shadow(1px 1px 5px #005eb8);
 }
 
-.button-media:hover img{
+.button-media:hover img {
   filter: drop-shadow(1px 1px 5px #005eb8);
 }
 
-#brandsid .imagebrand1{
+#brandsid .imagebrand1 {
   filter: drop-shadow(1px 1px 6px gray);
-
 }
 
-#brandsid .imagebrand2{
+#brandsid .imagebrand2 {
   filter: drop-shadow(1px 1px 6px gray);
-
 }
 
-#brandsid .imagebrand3{
+#brandsid .imagebrand3 {
   filter: drop-shadow(1px 1px 6px gray);
-
 }
 
-.imagebrand1:hover{
+.imagebrand1:hover {
   filter: drop-shadow(1px 1px 10px gray);
 }
 
-.imagebrand2:hover{
+.imagebrand2:hover {
   filter: drop-shadow(1px 1px 6px gray);
 }
 
-.imagebrand3:hover{
+.imagebrand3:hover {
   filter: drop-shadow(1px 1px 6px gray);
 }
 
@@ -94,6 +91,12 @@
   color: white;
 }
 
+.babysoft-produk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 /* Mobile Screen */
 @media only screen and (max-width: 600px) {
@@ -270,6 +273,8 @@
     margin-left: 5px;
   }
 
+  
+
 }
 
 /* Desktop Screen */
@@ -278,12 +283,6 @@
     width: 50%;
     height: 50%;
   }
-
-  /*
-  * {
-    background-color: aqua;
-  }
-    */
 
   .tentangkamudesc p {
     margin-left: 150px;
@@ -350,12 +349,24 @@
     margin-left: 20px;
   }
 
-  .aganol-produk .card{
+  .aganol-produk .card {
     height: 420px;
   }
 
-  .aganol-produk h5{
+  .aganol-produk h5 {
     margin-top: 20px;
+  }
+
+  .babysoft-produk .card {
+    height: 420px;
+  }
+
+  .babysoft-produk h5,img {
+    margin-top: 40px;
+  }
+
+  .babysoft-produk a {
+    font-weight: bold;
   }
 
 }
@@ -425,6 +436,7 @@
   }
 }
 
+/* Tablet Screen */
 @media screen and (min-width: 800px) and (max-width: 900px) {
   #faq-footer {
     position: fixed;
@@ -476,5 +488,16 @@
     bottom: 0;
     width: 100%;
   }
-}
 
+  .aganol-produk img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .aganol-produk {
+    margin-top: 80px;
+  }
+
+}
