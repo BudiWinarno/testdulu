@@ -105,6 +105,27 @@
   width: 50%;
 }
 
+.biosofthijab-produk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.bathroomcleaner-produk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.yuribleach-produk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 /* Mobile Screen */
 @media only screen and (max-width: 600px) {
   .content-satu img {
@@ -382,6 +403,34 @@
 
   .biosoftdetergen-produk h5,img {
     margin-top: 40px;
+  }
+
+  .biosofthijab-produk .card {
+    height: 420px;
+  }
+
+  .biosofthijab-produk h5,img {
+    margin-top: 40px;
+  }
+
+  .bathroomcleaner-produk .card {
+    height: 420px;
+  }
+
+  .bathroomcleaner-produk h5,img {
+    margin-top: 40px;
+  }
+
+  .yuribleach-produk .card {
+    height: 420px;
+  }
+
+  .yuribleach-produk h5,img {
+    margin-top: 40px;
+  }
+
+  .yuribleach-produk h5 {
+    margin-top: 60px;
   }
 
 }
