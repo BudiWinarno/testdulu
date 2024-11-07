@@ -210,6 +210,27 @@
   width: 50%;
 }
 
+.laundrydisinfektan-produk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.disinfektanspray-produk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.yurihandmoisturizer-produk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 
 /* Mobile Screen */
 @media only screen and (max-width: 600px) {
@@ -611,6 +632,30 @@
   }
 
   .tril-produk .card {
+    height: 420px;
+  }
+
+  .laundrydisinfektan-produk h5,img {
+    margin-top: 40px;
+  }
+
+  .laundrydisinfektan-produk .card {
+    height: 420px;
+  }
+
+  .disinfektanspray-produk h5,img {
+    margin-top: 40px;
+  }
+
+  .disinfektanspray-produk .card {
+    height: 420px;
+  }
+
+  .yurihandmoisturizer-produk h5,img {
+    margin-top: 40px;
+  }
+
+  .yurihandmoisturizer-produk .card {
     height: 420px;
   }
 
