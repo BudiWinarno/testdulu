@@ -78,6 +78,10 @@
   filter: drop-shadow(1px 1px 6px gray);
 }
 
+#brandbuttonhouseholdcleaner .img-fluid:hover {
+  filter: drop-shadow(1px 1px 6px gray);
+}
+
 .button-brand {
   position: relative;
   text-align: center;
@@ -89,6 +93,7 @@
   text-align: center;
   color: white;
 }
+
 
 /* Mobile Screen */
 @media only screen and (max-width: 600px) {
@@ -345,6 +350,14 @@
     margin-left: 20px;
   }
 
+  .aganol-produk .card{
+    height: 420px;
+  }
+
+  .aganol-produk h5{
+    margin-top: 20px;
+  }
+
 }
 
 /* Tablet Screen */
@@ -450,6 +463,18 @@
 
   #brandsid .imagebrand1 {
     margin-top: 10px;
+  }
+
+  #footer-media {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #footerprodukaganol {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 }
 
