@@ -258,17 +258,16 @@
 /* Mobile Screen */
 @media only screen and (max-width: 600px) {
   #footerprodukbabytoilet {
-    margin-top: 20px;
-    position: fixed;
     bottom: 0;
-    width: 100%;
   }
 
   #footerbrand {
     margin-top: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  }
+
+  #imagebrandbabydee{
+    margin-bottom: 63px;
+    margin-top: 20px;
   }
 
   .content-satu img {
