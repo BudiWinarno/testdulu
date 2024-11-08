@@ -258,6 +258,18 @@
 
 /* Mobile Screen */
 @media only screen and (max-width: 600px) {
+  #footerprodukbabytoilet {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #footerbrand {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
   .content-satu img {
     width: 100px;
     height: 100px;
