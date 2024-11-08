@@ -255,14 +255,17 @@
   margin-top: 90px;
 }
 
-
 /* Mobile Screen */
 @media only screen and (max-width: 600px) {
   #footerprodukbabytoilet {
-   margin-top: 20px;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 
   #footerbrand {
+    margin-top: 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -441,12 +444,11 @@
     margin-left: 5px;
   }
 
-  #imagebrandbabydee .babydee3 img{
+  #imagebrandbabydee .babydee3 img {
     margin-bottom: 20px;
     padding-bottom: 20px;
     background-color: #005eb8;
   }
-
 }
 
 /* Desktop Screen */
@@ -549,7 +551,7 @@
     height: 420px;
   }
 
-  .biosoftdetergen-produk h5{
+  .biosoftdetergen-produk h5 {
     margin-top: 40px;
   }
 
@@ -573,7 +575,7 @@
     height: 420px;
   }
 
-  .bathroomcleaner-produk h5{
+  .bathroomcleaner-produk h5 {
     margin-top: 40px;
   }
 
@@ -812,7 +814,6 @@
   .adulttoilet-produk .card {
     height: 420px;
   }
-
 }
 
 /* Tablet Screen */
@@ -944,11 +945,9 @@
     margin-top: 80px;
   }
 
-  
   #footerprodukbabytoilet {
     position: fixed;
     bottom: 0;
     width: 100%;
   }
-
 }
