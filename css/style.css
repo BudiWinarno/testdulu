@@ -431,7 +431,11 @@
     margin-left: 5px;
   }
 
-  
+  #imagebrandbabydee .babydee3 img{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background-color: #005eb8;
+  }
 
 }
 
@@ -928,6 +932,13 @@
 
   .aganol-produk {
     margin-top: 80px;
+  }
+
+  
+  #footerprodukbabytoilet {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 
 }
