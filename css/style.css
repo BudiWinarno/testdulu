@@ -266,7 +266,7 @@
   }
 
   #imagebrandbabydee{
-    margin-bottom: 63px;
+    margin-bottom: 30px;
     margin-top: 20px;
   }
 
@@ -444,7 +444,6 @@
   }
 
   #imagebrandbabydee .babydee3 img {
-    margin-bottom: 20px;
     padding-bottom: 20px;
     background-color: #005eb8;
   }
@@ -452,6 +451,11 @@
 
 /* Desktop Screen */
 @media only screen and (min-width: 992px) {
+
+  #imagebrandbabydee{
+    margin-bottom: 20px;
+  }
+  
   .tentang-kami-content-empat img {
     width: 50%;
     height: 50%;
@@ -948,5 +952,9 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+  }
+
+  #imagebrandbabydee{
+    margin-bottom: 20px;
   }
 }
